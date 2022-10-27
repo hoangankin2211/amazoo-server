@@ -5,7 +5,8 @@ const adminRouter = require('./routers/admin.js');
 const productRouter = require('./routers/product.js');
 const userRouter = require('./routers/user');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
+
 const app = express();
 const linkDataBase = 'mongodb+srv://hoangankin123:hoangankin123@cluster0.lb1vuxi.mongodb.net/?retryWrites=true&w=majority';
 

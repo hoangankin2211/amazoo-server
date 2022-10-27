@@ -66,6 +66,7 @@ authRouter.post('/api/signin',async (req,res)=>{
 //Check token to sign in automatically
 authRouter.post('/api/checkTokenValid', async (req,res)=>{
     try {
+        print(here)
         const token = req.header("token");
         
         if (!token){
