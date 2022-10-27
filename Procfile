@@ -1,1 +1,1 @@
-web:node index.jsasdf
+web:node index.js
